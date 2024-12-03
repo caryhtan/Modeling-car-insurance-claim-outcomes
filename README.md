@@ -3,7 +3,7 @@
 Welcome to my project on predicting car insurance claim outcomes! Insurance has long been a data-driven industry, and machine learning is enhancing how companies assess risk and make predictions. In this analysis, I explored the **car_insurance.csv** dataset to uncover insights into customer attributes and identify the most predictive feature for logistic regression models. Using Python and Jupyter Notebook, I analyzed the dataset and trained logistic regression models to guide future efforts in claim prediction.
 
 ## View the Notebook
-You can check out the full analysis here: [View Notebook](link-to-notebook)
+You can check out the full analysis here: [View Notebook](https://github.com/caryhtan/Modeling-car-insurance-claim-outcomes/blob/main/notebook.ipynb)
 
 ## What I Did
 I focused on answering the following key question:
@@ -11,18 +11,18 @@ I focused on answering the following key question:
 
 ### Data Source
 I used the following dataset:
-1. **data/car_insurance.csv**  
+**data/car_insurance.csv**  
 This is a CSV file containing data on client demographics, policy details, and claim outcomes.  
-- `age`: Client's age category (e.g., 16-25, 26-39, etc.)  
-- `credit_score`: Client's credit score (between 0 and 1)  
-- `driving_experience`: Years of driving experience (e.g., 0-9, 10-19, etc.)  
-- `annual_mileage`: Number of miles driven annually  
-- `outcome`: Response variable indicating whether a claim was made (0 = No claim, 1 = Claim made)  
+- **`age`**: Client's age category (e.g., 16-25, 26-39, etc.)  
+- **`credit_score`**: Client's credit score (between 0 and 1)  
+- **`driving_experience`**: Years of driving experience (e.g., 0-9, 10-19, etc.)  
+- **`annual_mileage`**: Number of miles driven annually  
+- **`outcome`**: Response variable indicating whether a claim was made (0 = No claim, 1 = Claim made)  
 
 ## What I Found
 Here are some key insights I discovered:
-- Best Predictive Feature: `driving_experience`  
-- Accuracy: The logistic regression model using `driving_experience` achieved an accuracy of 77.71%.
+- **Best Predictive Feature**: `driving_experience`  
+- **Accuracy**: The logistic regression model using `driving_experience` achieved an accuracy of 77.71%.
 
 ## How I Did It
 To answer this question, I:
