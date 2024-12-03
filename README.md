@@ -1,5 +1,6 @@
 # Modeling Car Insurance Claim Outcomes
 ![Car Insurance](car.jpg)
+
 Welcome to my project on predicting car insurance claim outcomes! Insurance has long been a data-driven industry, and machine learning is enhancing how companies assess risk and make predictions. In this analysis, I explored the **car_insurance.csv** dataset to uncover insights into customer attributes and identify the most predictive feature for logistic regression models. Using Python and Jupyter Notebook, I analyzed the dataset and trained logistic regression models to guide future efforts in claim prediction.
 
 ## View the Notebook
